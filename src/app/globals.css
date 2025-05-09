@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+  
+  .prose p {
+    @apply mb-4;
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink .75s step-end infinite;
+}
+
+@keyframes fadeInOut {
+  0% { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  20% { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+  80% { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+  100% { 
+    opacity: 0; 
+    transform: translateY(-20px); 
+  }
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 5s ease-in-out forwards;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+}
+
+.delay-1000 {
+  animation-delay: 5s;
+}
+
+.delay-2000 {
+  animation-delay: 10s;
+}
+
+.delay-3000 {
+  animation-delay: 15s;
+}
+
+.delay-4000 {
+  animation-delay: 20s;
+}
