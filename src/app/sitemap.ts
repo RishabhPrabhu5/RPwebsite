@@ -1,68 +1,68 @@
 import { MetadataRoute } from 'next'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rishabhprabhu.com'
-  
   return [
     {
-      url: baseUrl,
+      url: 'https://rishabhprabhu.com',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 1,
     },
     {
-      url: `${baseUrl}/about`,
+      url: 'https://rishabhprabhu.com/about',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/experience`,
+      url: 'https://rishabhprabhu.com/experience',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/education`,
+      url: 'https://rishabhprabhu.com/education',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      changeFrequency: 'yearly',
+      priority: 0.7,
     },
     {
-      url: `${baseUrl}/portfolio`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/skills`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/hobbies`,
+      url: 'https://rishabhprabhu.com/skills',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/blog`,
+      url: 'https://rishabhprabhu.com/portfolio',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://rishabhprabhu.com/hobbies',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: 'https://rishabhprabhu.com/blog',
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 0.7,
+      priority: 0.8,
     },
     {
-      url: `${baseUrl}/news`,
+      url: 'https://rishabhprabhu.com/news',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'https://rishabhprabhu.com/contact',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.6,
     },
   ]
 } 
