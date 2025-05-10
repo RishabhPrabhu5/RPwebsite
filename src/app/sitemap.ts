@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rishabhprabhu5.github.io/RPwebsite'
+  const baseUrl = 'https://rishiprabhu.com'
   
   return [
     {
