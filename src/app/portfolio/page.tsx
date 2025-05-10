@@ -11,20 +11,18 @@ export default function Portfolio() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
-            <h2 className="text-3xl font-bold mb-4 text-white">Caseflood.ai</h2>
-            <p className="text-blue-200 text-xl mb-4">YC W25 • Founding ML Engineer</p>
+            <h2 className="text-3xl font-bold mb-4 text-white">TheraSpeak</h2>
+            <p className="text-blue-200 text-xl mb-4">PennApps 2023 Project</p>
             <p className="text-gray-200 text-lg mb-6">
-              Developed AI-powered receptionist for law firms, handling client intake and scheduling.
-              Implemented natural language processing and machine learning models for automated responses.
+              AI-powered therapy assistant that helps users practice and improve their communication skills.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Python</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">TensorFlow</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">NLP</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">AWS</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">React</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">OpenAI</span>
             </div>
             <Link 
-              href="https://caseflood.ai" 
+              href="https://github.com/RishabhPrabhu5/TheraSpeak" 
               target="_blank"
               className="inline-block px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity"
             >
@@ -33,20 +31,58 @@ export default function Portfolio() {
           </div>
 
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
-            <h2 className="text-3xl font-bold mb-4 text-white">Tartan Student Fund</h2>
-            <p className="text-blue-200 text-xl mb-4">Energy Sector Analyst</p>
+            <h2 className="text-3xl font-bold mb-4 text-white">Technical Analysis Quant Models</h2>
+            <p className="text-blue-200 text-xl mb-4">Quantitative Finance</p>
             <p className="text-gray-200 text-lg mb-6">
-              Jane Street-sponsored fund with ~$100,000 AUM. Conducted fundamental analysis and market research
-              for energy sector investments. Developed quantitative models for portfolio optimization.
+              Collection of technical analysis models for market prediction and trading strategies.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Python</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Financial Analysis</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Portfolio Management</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Quantitative Modeling</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Pandas</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">NumPy</span>
             </div>
             <Link 
-              href="https://github.com/RishabhPrabhu5" 
+              href="https://github.com/RishabhPrabhu5/init_quant_models" 
+              target="_blank"
+              className="inline-block px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity"
+            >
+              View Project
+            </Link>
+          </div>
+
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
+            <h2 className="text-3xl font-bold mb-4 text-white">Task Manager App</h2>
+            <p className="text-blue-200 text-xl mb-4">Full Stack Development</p>
+            <p className="text-gray-200 text-lg mb-6">
+              Modern task management application with real-time updates and collaborative features.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Next.js</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">TypeScript</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Tailwind</span>
+            </div>
+            <Link 
+              href="https://github.com/RishabhPrabhu5/TaskManagerApp" 
+              target="_blank"
+              className="inline-block px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity"
+            >
+              View Project
+            </Link>
+          </div>
+
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
+            <h2 className="text-3xl font-bold mb-4 text-white">Datathon 2024</h2>
+            <p className="text-blue-200 text-xl mb-4">AI & Sustainability</p>
+            <p className="text-gray-200 text-lg mb-6">
+              AI solutions for sustainability challenges, developed during CMU DSC Datathon.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Python</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">ML</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Data Analysis</span>
+            </div>
+            <Link 
+              href="https://github.com/RishabhPrabhu5/datathon_2024" 
               target="_blank"
               className="inline-block px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity"
             >
@@ -56,19 +92,17 @@ export default function Portfolio() {
 
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <h2 className="text-3xl font-bold mb-4 text-white">Personal Website</h2>
-            <p className="text-blue-200 text-xl mb-4">Full Stack Development</p>
+            <p className="text-blue-200 text-xl mb-4">Web Development</p>
             <p className="text-gray-200 text-lg mb-6">
-              Built a modern, responsive personal website using Next.js and Tailwind CSS.
-              Implemented dark theme, animations, and interactive components.
+              Modern, responsive personal portfolio website built with Next.js and Tailwind CSS.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Next.js</span>
               <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">React</span>
               <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Tailwind CSS</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">TypeScript</span>
             </div>
             <Link 
-              href="https://github.com/RishabhPrabhu5" 
+              href="https://github.com/RishabhPrabhu5/RPwebsite" 
               target="_blank"
               className="inline-block px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity"
             >
@@ -77,24 +111,22 @@ export default function Portfolio() {
           </div>
 
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
-            <h2 className="text-3xl font-bold mb-4 text-white">Machine Learning Projects</h2>
-            <p className="text-blue-200 text-xl mb-4">Various ML Implementations</p>
+            <h2 className="text-3xl font-bold mb-4 text-white">HackCMU Project</h2>
+            <p className="text-blue-200 text-xl mb-4">Hackathon Project</p>
             <p className="text-gray-200 text-lg mb-6">
-              Collection of machine learning projects including image classification,
-              natural language processing, and predictive modeling.
+              Innovative solution developed during HackCMU, focusing on practical applications of technology.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Python</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">TensorFlow</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">PyTorch</span>
-              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Scikit-learn</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">JavaScript</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">Node.js</span>
+              <span className="px-3 py-1 bg-blue-900/50 text-blue-200 rounded-full text-sm">APIs</span>
             </div>
             <Link 
-              href="https://github.com/RishabhPrabhu5" 
+              href="https://github.com/RishabhPrabhu5/hackcmu" 
               target="_blank"
               className="inline-block px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity"
             >
-              View Projects
+              View Project
             </Link>
           </div>
         </div>

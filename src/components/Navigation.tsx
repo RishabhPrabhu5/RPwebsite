@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import Image from 'next/image'
 
 export default function Navigation() {
   const pathname = usePathname()
@@ -23,7 +24,16 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-blue-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center space-x-4">
+            <div className="relative w-12 h-12 rounded-full overflow-hidden">
+              <Image
+                src="/profile.jpg"
+                alt="Rishi Prabhu"
+                fill
+                style={{ objectFit: 'cover', objectPosition: '50% 30%' }}
+                priority
+              />
+            </div>
             <Link 
               href="/" 
               className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 hover:opacity-80 transition-opacity"

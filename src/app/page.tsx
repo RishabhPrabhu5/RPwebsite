@@ -4,16 +4,16 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-32">
         <div className="flex flex-col items-center justify-center min-h-[80vh]">
-          <h1 className="text-7xl sm:text-9xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-600 to-blue-500">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 sm:mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-600 to-blue-500">
             Hello There!
           </h1>
-          <h2 className="text-6xl sm:text-8xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
-            I'm Rishi M. Prabhu
+          <h2 className="text-5xl sm:text-7xl md:text-9xl font-bold mb-8 sm:mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
+            I'm Rishi Prabhu
           </h2>
-          <div className="h-16 relative w-full max-w-3xl">
-            <div className="text-4xl sm:text-5xl text-white text-center">
+          <div className="h-16 relative w-full max-w-3xl mb-8 sm:mb-16">
+            <div className="text-2xl sm:text-4xl md:text-5xl text-white text-center">
               <p className="animate-fade-in-out absolute w-full">
                 <span className="font-semibold">Aspiring Quant</span>
               </p>
@@ -29,12 +29,24 @@ export default function Home() {
               <p className="animate-fade-in-out delay-4000 absolute w-full">
                 <span className="font-semibold">Fun-loving Friend</span>
               </p>
+              <div className="absolute w-full flex justify-center opacity-0 animate-fade-in delay-4000 -mt-8">
+                <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden">
+                  <Image
+                    src="/profile.jpg"
+                    alt="Rishi Prabhu"
+                    fill
+                    className="rounded-full object-cover"
+                    style={{ objectPosition: '50% 30%' }}
+                    priority
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="mt-20 flex justify-center">
+          <div className="mt-16 sm:mt-20">
             <Link 
               href="#experience" 
-              className="px-12 py-6 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg text-2xl font-semibold"
+              className="px-12 py-6 sm:px-12 sm:py-6 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg text-xl sm:text-2xl font-semibold"
             >
               View My Work
             </Link>
@@ -48,17 +60,17 @@ export default function Home() {
         <div className="space-y-12">
           <div className="border-l-4 border-blue-600 pl-8 transform hover:translate-x-2 transition-transform">
             <h3 className="font-semibold text-2xl text-white">Incoming Quantitative Analyst Intern</h3>
-            <p className="text-blue-200 text-xl">Magnetar Capital • May 2025 - Present</p>
+            <p className="text-blue-200 text-xl">Magnetar Capital • Summer 2025</p>
             <p className="mt-3 text-gray-200 text-xl">Upcoming quantitative analyst internship at a leading alternative asset management firm</p>
           </div>
           <div className="border-l-4 border-blue-500 pl-8 transform hover:translate-x-2 transition-transform">
             <h3 className="font-semibold text-2xl text-white">Equity Research Analyst</h3>
-            <p className="text-blue-200 text-xl">Tartan Student Fund • January 2025 - Present</p>
+            <p className="text-blue-200 text-xl">Tartan Student Fund • January 2024 - Present</p>
             <p className="mt-3 text-gray-200 text-xl">Jane Street-sponsored fund with ~$100,000 AUM. Energy Sector Analyst.</p>
           </div>
           <div className="border-l-4 border-blue-600 pl-8 transform hover:translate-x-2 transition-transform">
             <h3 className="font-semibold text-2xl text-white">Machine Learning Engineer</h3>
-            <p className="text-blue-200 text-xl">Caseflood.ai (YC W25) • October 2024 - December 2024</p>
+            <p className="text-blue-200 text-xl">Caseflood.ai (YC W25) • October 2023 - December 2023</p>
             <p className="mt-3 text-gray-200 text-xl">Founding ML Engineer developing AI-powered receptionist for law firms.</p>
           </div>
         </div>
@@ -86,112 +98,95 @@ export default function Home() {
         </Link>
       </section>
 
-      {/* Skills Preview */}
-      <section id="skills" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20 bg-[#0a0a0a]">
-        <h2 className="text-5xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">Technical Skills</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
+      {/* Skills Section Preview */}
+      <section id="skills" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
+        <h2 className="text-5xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">Skills</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">💻</span>
-              <h3 className="font-semibold text-2xl text-white">Backend Languages</h3>
+              <h3 className="text-2xl font-bold text-white">Programming Languages</h3>
             </div>
             <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
+              <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Python</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
+              <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Java</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
+              <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">C/C#</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
           </div>
+
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">🌐</span>
-              <h3 className="font-semibold text-2xl text-white">Web & Frontend</h3>
+              <h3 className="text-2xl font-bold text-white">Web & Frontend</h3>
             </div>
             <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
+              <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">React</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
-                <span className="text-gray-200 text-xl">JavaScript</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">JavaScript/TypeScript</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
-                <span className="text-gray-200 text-xl">HTML/CSS</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Flask</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
           </div>
+
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">📊</span>
-              <h3 className="font-semibold text-2xl text-white">Data Analysis & ML</h3>
+              <h3 className="text-2xl font-bold text-white">Data Analysis & ML</h3>
             </div>
             <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
-                <span className="text-gray-200 text-xl">Machine Learning</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">MATLAB</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
-                <span className="text-gray-200 text-xl">Deep Learning</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Computer Vision</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
-                <span className="text-gray-200 text-xl">Data Analysis</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Computational Bioinformatics</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
           </div>
-          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
-            <div className="flex items-center mb-6">
-              <span className="text-4xl mr-4">📈</span>
-              <h3 className="font-semibold text-2xl text-white">Quantitative Finance</h3>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
-                <span className="text-gray-200 text-xl">Financial Modeling</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
-                <span className="text-gray-200 text-xl">Technical Analysis</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
-                <span className="text-gray-200 text-xl">MACD/RSI/EMA</span>
-              </div>
-            </div>
-          </div>
+
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">🛠️</span>
-              <h3 className="font-semibold text-2xl text-white">Tools & Platforms</h3>
+              <h3 className="text-2xl font-bold text-white">Tools & Platforms</h3>
             </div>
             <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
+              <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Git</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
-                <span className="text-gray-200 text-xl">AWS</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">S&P Capital IQ</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
-              <div className="flex items-center">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mr-3"></div>
-                <span className="text-gray-200 text-xl">Docker</span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Cursor/LLMs</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
             </div>
           </div>
         </div>
-        <Link href="/skills" className="inline-block mt-12 text-blue-400 hover:text-blue-300 text-2xl text-center w-full">
+        <Link href="/skills" className="inline-block mt-12 text-blue-400 hover:text-blue-300 text-2xl">
           View all skills →
         </Link>
       </section>
@@ -203,6 +198,7 @@ export default function Home() {
           {[
             { label: 'GitHub', href: 'https://github.com/RishabhPrabhu5', icon: '🐙' },
             { label: 'LinkedIn', href: 'https://www.linkedin.com/in/rprabhu1/', icon: '💼' },
+            { label: 'Instagram', href: 'https://www.instagram.com/rishabh_prabhu5/', icon: '📸' },
             { label: 'Email', href: 'mailto:rprabhu2@andrew.cmu.edu', icon: '✉️' },
           ].map((link, index) => (
             <Link

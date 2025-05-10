@@ -1,7 +1,13 @@
+'use client'
+
 import Navigation from '@/components/Navigation'
 import Link from 'next/link'
+import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 export default function About() {
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
   return (
     <main className="min-h-screen bg-black text-white">
       <Navigation />
@@ -13,6 +19,26 @@ export default function About() {
           {/* Main Content */}
           <div className="space-y-12">
             <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors duration-300">
+              <div className="flex flex-col items-center mb-8">
+                <div className={`relative w-48 h-48 rounded-full overflow-hidden mb-6 transition-opacity duration-500 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}>
+                  <Image
+                    src="/profile.jpg"
+                    alt="Rishi Prabhu"
+                    fill
+                    style={{ objectFit: 'cover', objectPosition: '50% 30%' }}
+                    priority
+                    onLoadingComplete={() => setIsImageLoaded(true)}
+                  />
+                </div>
+                <a 
+                  href="/resume.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity text-lg font-semibold"
+                >
+                  View My Resume
+                </a>
+              </div>
               <h2 className="text-3xl font-semibold text-white mb-6">Who I Am</h2>
               <p className="text-xl text-gray-200 leading-relaxed">
                 I'm a passionate student at Carnegie Mellon University, pursuing a unique dual degree in Computational Finance and Computer Science. My journey is driven by a deep fascination with the intersection of technology and finance, where I aim to leverage cutting-edge computational methods to solve complex financial challenges.
