@@ -65,12 +65,12 @@ export default function Home() {
           </div>
           <div className="border-l-4 border-blue-500 pl-8 transform hover:translate-x-2 transition-transform">
             <h3 className="font-semibold text-2xl text-white">Equity Research Analyst</h3>
-            <p className="text-blue-200 text-xl">Tartan Student Fund • January 2024 - Present</p>
+            <p className="text-blue-200 text-xl">Tartan Student Fund • January 2025 - Present</p>
             <p className="mt-3 text-gray-200 text-xl">Jane Street-sponsored fund with ~$100,000 AUM. Energy Sector Analyst.</p>
           </div>
           <div className="border-l-4 border-blue-600 pl-8 transform hover:translate-x-2 transition-transform">
             <h3 className="font-semibold text-2xl text-white">Machine Learning Engineer</h3>
-            <p className="text-blue-200 text-xl">Caseflood.ai (YC W25) • October 2023 - December 2023</p>
+            <p className="text-blue-200 text-xl">Caseflood.ai (YC W25) • October 2024 - December 2024</p>
             <p className="mt-3 text-gray-200 text-xl">Founding ML Engineer developing AI-powered receptionist for law firms.</p>
           </div>
         </div>

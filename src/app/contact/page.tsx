@@ -61,7 +61,7 @@ export default function Contact() {
                   <span className="text-3xl">📍</span>
                   <div>
                     <h3 className="text-xl font-semibold text-white">Location</h3>
-                    <p className="text-gray-400">Pittsburgh, PA</p>
+                    <p className="text-gray-400">Washington, DC Metropolitan Area</p>
                   </div>
                 </div>
               </div>

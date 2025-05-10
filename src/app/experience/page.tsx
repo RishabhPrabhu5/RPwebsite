@@ -56,7 +56,7 @@ export default function Experience() {
                   <h3 className="text-3xl font-semibold text-white">Machine Learning Engineer</h3>
                   <p className="text-blue-200 text-2xl mt-2">Caseflood.ai (YC W25)</p>
                 </div>
-                <p className="text-gray-300 text-xl">October 2023 - December 2023</p>
+                <p className="text-gray-300 text-xl">October 2024 - December 2024</p>
               </div>
               <ul className="list-disc list-inside text-gray-200 text-xl mt-4 space-y-2">
                 <li>Developed AI-powered receptionist for law firms, handling client intake and scheduling</li>
