@@ -45,19 +45,17 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors duration-300">
-              <h2 className="text-3xl font-semibold text-white mb-6">My Journey</h2>
-              <p className="text-xl text-gray-200 leading-relaxed">
-                From my early days at Thomas Jefferson High School for Science and Technology, where I was the Captain of the Ultimate Frisbee team, to my current role at CMU, I've been constantly pushing the boundaries of what's possible. My experience spans from machine learning research to quantitative finance, with a particular focus on developing innovative solutions that bridge the gap between theory and practice.
-              </p>
-            </div>
 
             <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors duration-300">
               <h2 className="text-3xl font-semibold text-white mb-6">What Drives Me</h2>
               <p className="text-xl text-gray-200 leading-relaxed">
                 I'm motivated by the challenge of solving complex problems and the opportunity to make a meaningful impact. Whether it's developing AI solutions for law firms or analyzing market trends, I thrive on pushing the boundaries of what's possible through technology and innovation.
+                I also enjoy working with incredibly smart and talented people, and relish tackling complex problems together and learning from each other.
               </p>
             </div>
+
+            
+
           </div>
 
           {/* Interactive Elements */}
@@ -119,15 +117,22 @@ export default function About() {
                 </a>
               </div>
             </div>
+            <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors duration-300">
+              <h2 className="text-3xl font-semibold text-white mb-6">My Journey</h2>
+              <p className="text-xl text-gray-200 leading-relaxed">
+                From my early days at Thomas Jefferson High School for Science and Technology, to college years at CMU, I've been constantly pushing the boundaries of what's possible. My experience spans from machine learning research to quantitative finance, with a particular focus on developing innovative solutions that bridge the gap between theory and practice.
+              </p>
+            </div>
+
           </div>
         </div>
 
-        <div className="mt-16 text-center">
+       <div className="mt-16 text-center">
           <Link 
             href="/"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg text-2xl font-semibold"
+            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity text-xl"
           >
-            Back to Home
+            ← Back to Home
           </Link>
         </div>
       </div>

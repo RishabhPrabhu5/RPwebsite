@@ -134,9 +134,9 @@ export default function Portfolio() {
         <div className="mt-16 text-center">
           <Link 
             href="/"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity text-xl font-semibold"
+            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity text-xl"
           >
-            Back to Home
+            ← Back to Home
           </Link>
         </div>
       </div>

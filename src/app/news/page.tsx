@@ -30,7 +30,7 @@ export default function News() {
 
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors">
             <Link 
-              href="#"
+              href="https://caseflood.ai/"
               target="_blank"
               rel="noopener noreferrer"
               className="block h-full"
@@ -46,7 +46,7 @@ export default function News() {
 
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors">
             <Link 
-              href="#"
+              href="https://www.magnetar.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="block h-full"
@@ -62,13 +62,29 @@ export default function News() {
 
           <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors">
             <Link 
-              href="#"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:7315916375972065281/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block h-full"
+            >
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">MSCF Datathon 2025</h2>
+              <p className="text-gray-400 mb-4">Top 6 in a prestigious financial modeling competition at Carnegie Mellon University. Best Performing team for our age.</p>
+              <div className="flex items-center text-blue-400 mt-auto">
+                <span>Read more</span>
+                <span className="ml-2">→</span>
+              </div>
+            </Link>
+          </div>
+
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900 hover:border-blue-700 transition-colors">
+            <Link 
+              href="https://www.cmu.edu/mscf/news/2024/pioneering-experiential-learning-in-finance-at-cmu-with-the-2024-mscf-trading-competition.html"
               target="_blank"
               rel="noopener noreferrer"
               className="block h-full"
             >
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Rotman Market Simulation Challenge</h2>
-              <p className="text-gray-400 mb-4">Participated in prestigious trading simulation competition at Carnegie Mellon University.</p>
+              <p className="text-gray-400 mb-4">Participated in intricate trading simulation competition at Carnegie Mellon University.</p>
               <div className="flex items-center text-blue-400 mt-auto">
                 <span>Read more</span>
                 <span className="ml-2">→</span>

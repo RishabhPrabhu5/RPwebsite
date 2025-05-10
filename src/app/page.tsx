@@ -89,7 +89,7 @@ export default function Home() {
             <p className="mt-3 text-gray-200 text-xl">GPA: 4.0/4.0 (Dean's List)</p>
             <div className="mt-4 text-gray-300 text-lg">
               <p>• Relevant Coursework: Data Structures & Algorithms, Machine Learning, Statistical Computing, Financial Markets</p>
-              <p>• Activities: Tartan Student Fund, CMU Quant Club, CMU Tennis Club</p>
+              <p>• Activities: Vice President: CMU Quant Club, Tartan Student Fund, Scotty Labs, CMU Hindu YUVA </p>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Java</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">C/C#</span>
@@ -131,14 +131,18 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">React</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-gray-200 text-xl">JavaScript/TypeScript</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-gray-200 text-xl">JavaScript/TypeScript/Node.js</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Flask</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">HTML/CSS</span>
                 <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
@@ -152,15 +156,19 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">MATLAB</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Computer Vision</span>
                 <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-gray-200 text-xl">Computational Bioinformatics</span>
+                <span className="text-gray-200 text-xl">Big Data ML/HPC/Cloud Computing</span>
                 <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Agentic AI</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
             </div>
           </div>
@@ -173,7 +181,15 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Git</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Microsoft Azure</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Microsoft Office</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">S&P Capital IQ</span>
@@ -181,7 +197,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Cursor/LLMs</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
           </div>

@@ -24,7 +24,8 @@ export default function Experience() {
                 <p className="text-gray-300 text-xl">Summer 2025</p>
               </div>
               <p className="text-gray-200 text-xl mt-4">
-                Upcoming quantitative analyst internship at a leading alternative asset management firm, focusing on systematic trading strategies and quantitative research.
+                Upcoming quantitative analyst internship at a leading alternative asset management firm, focusing on systematic trading strategies and quantitative research
+                I'll be working with experienced Quantitative Researchers and getting hands-on experience witih model development, strategy backtesting, portfolio optmization, and deployment.
               </p>
             </div>
 
@@ -48,7 +49,6 @@ export default function Experience() {
           {/* Past Experience */}
           <div className="space-y-12">
             <h2 className="text-4xl font-semibold text-white mb-8">Past Experience</h2>
-            
             {/* Caseflood.ai */}
             <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
               <div className="flex justify-between items-start mb-4">
@@ -69,24 +69,34 @@ export default function Experience() {
             <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-3xl font-semibold text-white">First Place Winner</h3>
-                  <p className="text-blue-200 text-2xl mt-2">MathWorks Math Modeling Challenge</p>
+                  <h3 className="text-3xl font-semibold text-white">Quantitative Analyst</h3>
+                  <p className="text-blue-200 text-2xl mt-2">Aurelius (FinTech StartUp)</p>
                 </div>
-                <p className="text-gray-300 text-xl">April 2023</p>
+                <p className="text-gray-300 text-xl"> May 2024 - August 2024 </p>
               </div>
               <ul className="list-disc list-inside text-gray-200 text-xl mt-4 space-y-2">
-                <li>Led team to win first place and $20,000 in scholarships among 650 international teams</li>
-                <li>Developed mathematical models to predict electric bike usage and transportation impact</li>
-                <li>Received additional awards for Technical Computing and Outstanding Communication</li>
+                <li>Implemented MACD, RSI, & Fibonacci Retracement Level models in Python on minute-by-minute equities data from polygon</li>
+                <li>Outperformed the market on 20 of the top 25 stocks (by MCAP) with a 4% alpha strategy using RSI/MACD models on backend</li>
+                <li>Backtested strategies incorporating technical indicators. Deployed model to Aurelius financial terminal for MVP & consumer use</li>
               </ul>
-              <div className="mt-6 relative h-64 rounded-xl overflow-hidden">
-                <Image
-                  src="/mathworks-team.jpg"
-                  alt="MathWorks Math Modeling Challenge Team"
-                  fill
-                  style={{ objectFit: 'cover' }}
-                />
+            </div>
+
+            {/* MathWorks Math Modeling Challenge */}
+            <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="text-3xl font-semibold text-white">Machine Learning Research Intern</h3>
+                  <p className="text-blue-200 text-2xl mt-2">Dartmouth Health E.D.I.T</p>
+                </div>
+                <p className="text-gray-300 text-xl"> June 2023 - August 2023</p>
               </div>
+              <ul className="list-disc list-inside text-gray-200 text-xl mt-4 space-y-2">
+                <li>Published in the F1000 and Zenodo Research journals (https://doi.org/10.5281/zenodo.10433067), presented to Cedars-Sinai.</li>
+                <li>Constructed multimodal deep learning models to predict bladder cancer survival by analyzing structured (123 million DNAm and HiTIMED) and unstructured data (>13 million Whole Slide Image patches) from large database —> Big Data Processing. 
+                </li>
+                <li>Implemented and trained GCN on patch embeddings from WSIs. Deployed jobs on GPUs, HPC, and Cloud Computing Services</li>
+                <li>Presented at Stanford's Pacific Symposium on Biocomputing (PSB) 2024 and Dartmouth’s EDIT ML 2023 final conference</li>
+              </ul>
             </div>
           </div>
 

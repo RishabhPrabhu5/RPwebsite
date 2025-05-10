@@ -19,8 +19,11 @@ export default function Education() {
                 <div>
                   <h3 className="text-3xl font-semibold text-white">Carnegie Mellon University</h3>
                   <p className="text-blue-200 text-2xl mt-2">B.S. in Computational Finance + Computer Science</p>
+                  <p className="text-gray-200 text-xl">Computational Finance is CMU's highly selective/prestigious Quantitative Finance program modeled after the MSCF program ranked #2 in the world. It focuses on Mathematics, Statistics, and Computer Science, while also teaching imporant financial concepts.
+                    <br /> I am also purusing an additional major in Computer Science at the #1 Computer Science program in the country.
+                  </p>
                 </div>
-                <p className="text-gray-300 text-xl">Expected May 2028</p>
+                <p className="text-gray-300 text-xl">August 2024 - May 2028</p>
               </div>
               <div className="mt-6 space-y-4">
                 <p className="text-gray-200 text-xl">GPA: 4.0/4.0 (Dean's List)</p>
@@ -78,6 +81,17 @@ export default function Education() {
                     <li>#1 High School: U.S. News & World Report</li>
                   </ul>
                 </div>
+                <section>
+                  <h2 className="text-2xl font-bold">High School Coursework</h2>
+                  <ul className="list-disc list-inside text-gray-300 text-xl">
+                    <li>Artificial Intelligence</li>
+                    <li>Multivariable Calculus</li>
+                    <li>Linear Algebra</li>
+                    <li>Quantum Physics</li>
+                    <li>AP Statistics</li>
+                    <li>AP Physics</li>
+                  </ul>
+                </section>
               </div>
             </div>
           </div>
@@ -86,9 +100,9 @@ export default function Education() {
         <div className="mt-16 text-center">
           <Link 
             href="/"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity shadow-lg text-2xl font-semibold"
+            className="inline-block px-8 py-4 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white rounded-full hover:opacity-90 transition-opacity text-xl"
           >
-            Back to Home
+            ← Back to Home
           </Link>
         </div>
       </div>

@@ -7,6 +7,7 @@ export default function Blog() {
         <h1 className="text-5xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
           Blog Posts
         </h1>
+        <h2 className="text-3xl text-center text-white mb-4">Still in progress, blog is not yet available. Stay tuned!</h2>
 
         <div className="space-y-8 max-w-4xl mx-auto">
           {/* Blog Posts */}

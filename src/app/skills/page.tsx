@@ -11,12 +11,12 @@ export default function Skills() {
           Skills & Expertise
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Programming Languages */}
-          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">💻</span>
-              <h2 className="text-3xl font-bold text-white">Programming Languages</h2>
+              <h3 className="text-2xl font-bold text-white">Programming Languages</h3>
             </div>
             <div className="space-y-4">
               <div className="flex items-center justify-between">
@@ -25,7 +25,7 @@ export default function Skills() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Java</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">C/C#</span>
@@ -35,59 +35,75 @@ export default function Skills() {
           </div>
 
           {/* Web & Frontend */}
-          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">🌐</span>
-              <h2 className="text-3xl font-bold text-white">Web & Frontend</h2>
+              <h3 className="text-2xl font-bold text-white">Web & Frontend</h3>
             </div>
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">React</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-gray-200 text-xl">JavaScript/TypeScript</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-gray-200 text-xl">JavaScript/TypeScript/Node.js</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Flask</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">HTML/CSS</span>
                 <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
           </div>
 
           {/* Data Analysis & ML */}
-          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">📊</span>
-              <h2 className="text-3xl font-bold text-white">Data Analysis & ML</h2>
+              <h3 className="text-2xl font-bold text-white">Data Analysis & ML</h3>
             </div>
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">MATLAB</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Computer Vision</span>
                 <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-gray-200 text-xl">Computational Bioinformatics</span>
+                <span className="text-gray-200 text-xl">Big Data ML/HPC/Cloud Computing</span>
                 <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Agentic AI</span>
+                <span className="text-blue-400 text-lg">Advanced</span>
               </div>
             </div>
           </div>
 
           {/* Tools & Platforms */}
-          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
+          <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-blue-900">
             <div className="flex items-center mb-6">
               <span className="text-4xl mr-4">🛠️</span>
-              <h2 className="text-3xl font-bold text-white">Tools & Platforms</h2>
+              <h3 className="text-2xl font-bold text-white">Tools & Platforms</h3>
             </div>
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Git</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Microsoft Azure</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-200 text-xl">Microsoft Office</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">S&P Capital IQ</span>
@@ -95,7 +111,7 @@ export default function Skills() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-200 text-xl">Cursor/LLMs</span>
-                <span className="text-blue-400 text-lg">Advanced</span>
+                <span className="text-blue-400 text-lg">Intermediate</span>
               </div>
             </div>
           </div>
