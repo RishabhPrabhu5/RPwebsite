@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <main className="min-h-screen bg-black text-white py-24">
+    <main className="min-h-screen bg-black text-white py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-5xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
+        <h1 className="text-6xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
           Let's Connect
         </h1>
 

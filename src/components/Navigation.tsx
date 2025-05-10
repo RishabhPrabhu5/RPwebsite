@@ -12,6 +12,8 @@ const navItems = [
   { name: 'Experience', href: '/experience' },
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Hobbies', href: '/hobbies' },
+  { name: 'News', href: '/news' }, // Added News page
+  { name: 'Blog', href: '/blog' }, // Added News page
   { name: 'Contact', href: '/contact' },
 ]
 
