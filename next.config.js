@@ -7,8 +7,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  assetPrefix: '/RPwebsite/',
-  basePath: '/RPwebsite',
+  basePath: process.env.NODE_ENV === 'production' ? '/RPwebsite' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/RPwebsite/' : '',
   trailingSlash: true,
 }
 

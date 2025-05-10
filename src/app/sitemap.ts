@@ -3,63 +3,65 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://rishabhprabhu5.github.io/RPwebsite'
+  
   return [
     {
-      url: 'https://rishabhprabhu.com',
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,
     },
     {
-      url: 'https://rishabhprabhu.com/about',
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://rishabhprabhu.com/experience',
+      url: `${baseUrl}/experience`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://rishabhprabhu.com/education',
+      url: `${baseUrl}/education`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.7,
     },
     {
-      url: 'https://rishabhprabhu.com/skills',
+      url: `${baseUrl}/skills`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: 'https://rishabhprabhu.com/portfolio',
+      url: `${baseUrl}/portfolio`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: 'https://rishabhprabhu.com/hobbies',
+      url: `${baseUrl}/hobbies`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
-      url: 'https://rishabhprabhu.com/blog',
+      url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://rishabhprabhu.com/news',
+      url: `${baseUrl}/news`,
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
     },
     {
-      url: 'https://rishabhprabhu.com/contact',
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.6,

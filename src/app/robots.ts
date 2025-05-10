@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://rishabhprabhu.com/sitemap.xml',
+    sitemap: 'https://rishabhprabhu5.github.io/RPwebsite/sitemap.xml',
   }
 } 
