@@ -92,10 +92,10 @@ export default function Experience() {
               </div>
               <ul className="list-disc list-inside text-gray-200 text-xl mt-4 space-y-2">
                 <li>Published in the F1000 and Zenodo Research journals (https://doi.org/10.5281/zenodo.10433067), presented to Cedars-Sinai.</li>
-                <li>Constructed multimodal deep learning models to predict bladder cancer survival by analyzing structured (123 million DNAm and HiTIMED) and unstructured data (>13 million Whole Slide Image patches) from large database —> Big Data Processing. 
+                <li>Constructed multimodal deep learning models to predict bladder cancer survival by analyzing structured (123 million DNAm and HiTIMED) and unstructured data (13 million Whole Slide Image patches) from large database Big Data Processing. 
                 </li>
                 <li>Implemented and trained GCN on patch embeddings from WSIs. Deployed jobs on GPUs, HPC, and Cloud Computing Services</li>
-                <li>Presented at Stanford's Pacific Symposium on Biocomputing (PSB) 2024 and Dartmouth’s EDIT ML 2023 final conference</li>
+                <li>Presented at Stanford's Pacific Symposium on Biocomputing (PSB) 2024 and Dartmouth's EDIT ML 2023 final conference</li>
               </ul>
             </div>
           </div>
@@ -103,7 +103,6 @@ export default function Experience() {
           {/* Certifications Section */}
           <div className="space-y-12">
             <h2 className="text-4xl font-semibold text-white mb-8">Certifications & Achievements</h2>
-            
             <div className="bg-[#0a0a0a] p-8 rounded-xl shadow-lg border border-blue-900">
               <ul className="list-disc list-inside text-gray-200 text-xl space-y-4">
                 <li>Google 5-Day Gen AI Intensive Course (2024)</li>
